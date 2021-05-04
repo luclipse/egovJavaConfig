@@ -1,4 +1,4 @@
-package egovframework.example.config;
+package egovframework.example.config.root;
 
 import egovframework.rte.psl.orm.ibatis.SqlMapClientFactoryBean;
 import org.springframework.context.annotation.Bean;

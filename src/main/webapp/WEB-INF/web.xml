@@ -62,7 +62,7 @@
 		</init-param>
 		<init-param>
 			<param-name>contextConfigLocation</param-name>
-			<param-value>egovframework.example.config.ServletContext</param-value>
+			<param-value>egovframework.example.config.servlet.ServletContext</param-value>
 		</init-param>
 		<load-on-startup>1</load-on-startup>
 	</servlet>

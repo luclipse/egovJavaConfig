@@ -1,4 +1,4 @@
-package egovframework.example.config;
+package egovframework.example.config.root;
 
 import egovframework.rte.fdl.cmmn.trace.LeaveaTrace;
 import egovframework.rte.fdl.cmmn.trace.handler.DefaultTraceHandler;

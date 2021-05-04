@@ -1,4 +1,4 @@
-package egovframework.example.config;
+package egovframework.example.config.root;
 
 import egovframework.example.cmmn.EgovSampleExcepHndlr;
 import egovframework.example.cmmn.EgovSampleOthersExcepHndlr;

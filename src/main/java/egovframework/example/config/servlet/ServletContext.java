@@ -1,4 +1,4 @@
-package egovframework.example.config;
+package egovframework.example.config.servlet;
 
 import java.util.HashMap;
 import java.util.List;
