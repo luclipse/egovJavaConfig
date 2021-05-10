@@ -13,7 +13,6 @@ import egovframework.rte.psl.dataaccess.mapper.MapperConfigurer;
 
 @Configuration
 public class ContextMapper {
-    //ibatis
     @Bean
     public SqlSessionFactoryBean sqlSession(DataSource dataSource) throws IOException{
         SqlSessionFactoryBean sqlSessionFactoryBean = new SqlSessionFactoryBean();
@@ -23,14 +22,11 @@ public class ContextMapper {
         sqlSessionFactoryBean.setMapperLocations(pmrpr.getResources("classpath:/egovframework/sqlmap/example/mappers/*.xml"));
         return sqlSessionFactoryBean;
     }
-    //mybatis
-    /*
     @Bean
     public MapperConfigurer mapperConfigurer(DataSource dataSource){
         MapperConfigurer mapperConfigurer = new MapperConfigurer();
         mapperConfigurer.setBasePackage("egovframework.example.sample.service.impl");
         return mapperConfigurer;
     }
-    */
 }
 
