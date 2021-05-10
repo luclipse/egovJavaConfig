@@ -1,4 +1,4 @@
 /.idea/
 /eogvTest.iml
 /target/
-.iml
+*.iml
