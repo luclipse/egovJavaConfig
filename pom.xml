@@ -6,7 +6,7 @@
 	<artifactId>egovJavaConfig</artifactId>
 	<packaging>war</packaging>
 	<version>1.0.0</version>
-	<name>eogvTest</name>
+	<name>egovJavaConfig</name>
 	<url>http://www.egovframe.go.kr</url>
 
 	<licenses>
