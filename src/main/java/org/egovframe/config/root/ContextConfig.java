@@ -6,7 +6,7 @@ import org.springframework.context.annotation.PropertySource;
 import org.springframework.context.support.PropertySourcesPlaceholderConfigurer;
 
 @Configuration
-@PropertySource("classpath:egovframework/config/application.properties")
+@PropertySource("classpath:/application.properties")
 public class ContextConfig {
     @Bean
     public static PropertySourcesPlaceholderConfigurer propertyConfig() {
