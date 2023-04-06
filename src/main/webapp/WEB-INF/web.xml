@@ -20,7 +20,7 @@
     
 	<filter>
 		<filter-name>HTMLTagFilter</filter-name>
-		<filter-class>egovframework.rte.ptl.mvc.filter.HTMLTagFilter</filter-class>
+		<filter-class>org.egovframe.rte.ptl.mvc.filter.HTMLTagFilter</filter-class>
 	</filter>
 	<filter-mapping>
 		<filter-name>HTMLTagFilter</filter-name>
@@ -45,7 +45,7 @@
 
 	<context-param>
 		<param-name>contextConfigLocation</param-name>
-		<param-value>egovframework.example.config.root.RootContext</param-value>
+		<param-value>org.egovframe.config.root.RootContext</param-value>
 	</context-param>
 
 	<listener>
@@ -62,7 +62,7 @@
 		</init-param>
 		<init-param>
 			<param-name>contextConfigLocation</param-name>
-			<param-value>egovframework.example.config.servlet.ServletContext</param-value>
+			<param-value>org.egovframe.config.servlet.ServletContext</param-value>
 		</init-param>
 		<load-on-startup>1</load-on-startup>
 	</servlet>
